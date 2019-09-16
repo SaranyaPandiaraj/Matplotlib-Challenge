@@ -13,4 +13,4 @@ The Document "Matplotlib_HW_Sara_Dcoumentation" contains all the below details a
 
 The HTML Data Frame Viewable Link is present inside the Pymaceuticals Folder.
 
-Note to TA : Kindly Open the HTML Data Frame Link in Browser.
+<b> Note to TA : Kindly Open the HTML Data Frame Link in Browser. </b>
