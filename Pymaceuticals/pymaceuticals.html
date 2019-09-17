@@ -13116,7 +13116,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="-Pymaceuticals-Inc-and-the-Power-of-Plots-"><center><u> Pymaceuticals Inc and the Power of Plots </u></center><a class="anchor-link" href="#-Pymaceuticals-Inc-and-the-Power-of-Plots-">&#182;</a></h1>
+<h1 id="Pymaceuticals-Inc-and-the-Power-of-Plots"><ins>Pymaceuticals Inc and the Power of Plots</ins><a class="anchor-link" href="#Pymaceuticals-Inc-and-the-Power-of-Plots">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -13146,13 +13146,20 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<hr></hr>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Reading-&amp;-Combining-the-Mouse-Drug-Data-and-Clinical-Trial-Data">Reading &amp; Combining the Mouse Drug Data and Clinical Trial Data<a class="anchor-link" href="#Reading-&amp;-Combining-the-Mouse-Drug-Data-and-Clinical-Trial-Data">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[149]:</div>
+<div class="prompt input_prompt">In&nbsp;[210]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Dependencies and Setup</span>
@@ -13193,7 +13200,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[149]:</div>
+    <div class="prompt output_prompt">Out[210]:</div>
 
 
 
@@ -13284,7 +13291,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[150]:</div>
+<div class="prompt input_prompt">In&nbsp;[211]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store the Mean Tumor Volume Data Grouped by Drug and Timepoint </span>
@@ -13295,7 +13302,7 @@ div#notebook {
 <span class="n">Tumor_Volume_Mean_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">Tumor_Volume_Mean</span><span class="p">)</span>
 
 <span class="c1"># Preview DataFrame</span>
-<span class="n">Tumor_Volume_Mean_df</span> <span class="o">=</span> <span class="n">Tumor_Volume_Mean</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">Tumor_Volume_Mean_df</span> <span class="o">=</span> <span class="n">Tumor_Volume_Mean_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="n">Tumor_Volume_Mean_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>    
 </pre></div>
 
@@ -13309,7 +13316,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[150]:</div>
+    <div class="prompt output_prompt">Out[211]:</div>
 
 
 
@@ -13381,7 +13388,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[151]:</div>
+<div class="prompt input_prompt">In&nbsp;[212]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store the Standard Error of Tumor Volumes Grouped by Drug and Timepoint</span>
@@ -13392,7 +13399,7 @@ div#notebook {
 <span class="n">Tumor_Volume_Sem_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">Tumor_Volume_Sem</span><span class="p">)</span>
 
 <span class="c1"># Preview DataFrame</span>
-<span class="n">Tumor_Volume_Sem_df</span> <span class="o">=</span> <span class="n">Tumor_Volume_Sem</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">Tumor_Volume_Sem_df</span> <span class="o">=</span> <span class="n">Tumor_Volume_Sem_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="n">Tumor_Volume_Sem_df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -13406,7 +13413,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[151]:</div>
+    <div class="prompt output_prompt">Out[212]:</div>
 
 
 
@@ -13478,7 +13485,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[154]:</div>
+<div class="prompt input_prompt">In&nbsp;[213]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Minor Data Munging to Re-Format the Data Frames</span>
@@ -13498,7 +13505,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[154]:</div>
+    <div class="prompt output_prompt">Out[213]:</div>
 
 
 
@@ -13625,7 +13632,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[160]:</div>
+<div class="prompt input_prompt">In&nbsp;[288]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Declaring the Values for x-axis, y-axis &amp; Errors</span>
@@ -13683,7 +13690,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Observation"><u>Observation</u><a class="anchor-link" href="#Observation">&#182;</a></h3>
+<h3 id="Observation"><ins>Observation</ins><a class="anchor-link" href="#Observation">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13707,7 +13714,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[164]:</div>
+<div class="prompt input_prompt">In&nbsp;[215]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store the Mean Met. Site Data Grouped by Drug and Timepoint </span>
@@ -13732,7 +13739,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[164]:</div>
+    <div class="prompt output_prompt">Out[215]:</div>
 
 
 
@@ -13804,7 +13811,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[165]:</div>
+<div class="prompt input_prompt">In&nbsp;[216]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store the Standard Error associated with Met. Sites Grouped by Drug and Timepoint </span>
@@ -13829,7 +13836,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[165]:</div>
+    <div class="prompt output_prompt">Out[216]:</div>
 
 
 
@@ -13901,7 +13908,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[166]:</div>
+<div class="prompt input_prompt">In&nbsp;[217]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Minor Data Munging to Re-Format the Data Frames</span>
@@ -13920,7 +13927,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[166]:</div>
+    <div class="prompt output_prompt">Out[217]:</div>
 
 
 
@@ -14047,7 +14054,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[172]:</div>
+<div class="prompt input_prompt">In&nbsp;[291]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Declaring the Values for x-axis, y-axis &amp; Errors</span>
@@ -14105,7 +14112,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Observation"><u>Observation</u><a class="anchor-link" href="#Observation">&#182;</a></h3>
+<h3 id="Observation"><ins>Observation</ins><a class="anchor-link" href="#Observation">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14129,7 +14136,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[176]:</div>
+<div class="prompt input_prompt">In&nbsp;[219]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store the Count of Mice Grouped by Drug and Timepoint (W can pass any metric)</span>
@@ -14154,7 +14161,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[176]:</div>
+    <div class="prompt output_prompt">Out[219]:</div>
 
 
 
@@ -14226,7 +14233,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[177]:</div>
+<div class="prompt input_prompt">In&nbsp;[220]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Minor Data Munging to Re-Format the Data Frames</span>
@@ -14245,7 +14252,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[177]:</div>
+    <div class="prompt output_prompt">Out[220]:</div>
 
 
 
@@ -14372,7 +14379,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[185]:</div>
+<div class="prompt input_prompt">In&nbsp;[293]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Declaring the Values for x-axis &amp; Calculating the Percentages</span>
@@ -14434,7 +14441,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Obseravtion"><u>Obseravtion</u><a class="anchor-link" href="#Obseravtion">&#182;</a></h3>
+<h3 id="Obseravtion"><ins>Obseravtion</ins><a class="anchor-link" href="#Obseravtion">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14457,7 +14464,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[189]:</div>
+<div class="prompt input_prompt">In&nbsp;[222]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Calculate the percent changes for each drug</span>
@@ -14478,7 +14485,7 @@ the tumor volume is comparatively increasing with the same rate of time point.</
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[189]:</div>
+    <div class="prompt output_prompt">Out[222]:</div>
 
 
 
@@ -14506,7 +14513,7 @@ dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[207]:</div>
+<div class="prompt input_prompt">In&nbsp;[301]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Store all Relevant Percent Changes into a Tuple</span>
@@ -14581,7 +14588,7 @@ dtype: float64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="-Observation-"><u> Observation </u><a class="anchor-link" href="#-Observation-">&#182;</a></h3>
+<h3 id="-Observation-"><ins> Observation </ins><a class="anchor-link" href="#-Observation-">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14598,7 +14605,7 @@ dtype: float64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Conclusion-"><u>Conclusion </u><a class="anchor-link" href="#Conclusion-">&#182;</a></h3>
+<h3 id="Conclusion-"><ins>Conclusion </ins><a class="anchor-link" href="#Conclusion-">&#182;</a></h3>
 </div>
 </div>
 </div>
