@@ -11,6 +11,14 @@ The Document "Matplotlib_HW_Sara_Dcoumentation" contains all the below details a
 6) Observations
 7) GitHub Links & Data Frame Viewable Link
 
+The below Figures are present in the Graph Folder under Pymaceuticals Folder.
+
+1) Tumor Response to Treatment
+2) Metastatic Response to Treatment
+3) Survival Rates
+4) Summary Bar Graph
+
+
 The HTML Data Frame Viewable Link is present inside the Pymaceuticals Folder.
 
 <b> Note to TA : Kindly Open the HTML Data Frame Link in Browser. </b>
